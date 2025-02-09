@@ -125,6 +125,10 @@ CORS_ORIGIN_WHITELIST = (
     'https://127.0.0.1:8080',
     'https://assign1part2.netlify.app/skill-list',
 )
+
+CORS_ALLOWED_ORIGINS = [
+    'https://assign1part2.netlify.app/skill-list',  # Replace with your Netlify app URL
+]
 CORS_ORIGIN_ALLOW_ALL = True
 
 
