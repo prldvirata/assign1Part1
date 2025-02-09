@@ -123,8 +123,11 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ORIGIN_WHITELIST = (
     'https://localhost:8080',
     'https://127.0.0.1:8080',
+    'https://assign1part2.netlify.app/skill-list',
 )
 CORS_ORIGIN_ALLOW_ALL = True
+
+
 import os
 
 MEDIA_URL = 'media/'
